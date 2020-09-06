@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact name="Leet:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Leet_jar</output-path>
+    <root id="root">
+      <element id="module-output" name="Leet" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
