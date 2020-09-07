@@ -6,11 +6,15 @@ public class Tree {
     public Tree (Node root){this.root = root;}
 
     public boolean findNode(int value){
-        int current_value = root.val;
-        while(root != null){
-            if(value < root.val)
 
+        if(root == null) return false;
+
+        Node  current = root;
+        while(current != null){
+            if(value < root.val) current = current.left;
+            else current = current.right;
         }
+        return current.val == value;
     }
 
     private class Node {
